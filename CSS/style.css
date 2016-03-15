@@ -1,0 +1,139 @@
+html {
+	/*background: url "../IMG/background.png" repeat-x #0c739f;*/
+	/*background: #0c739f;*/
+	background: #0c739f url(../IMG/background.png) repeat-x;
+
+}
+.clear-fix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0 auto;
+}
+.page {
+	margin: auto;
+	background: white;
+	width: 997px;
+	/*height: 800px;*/
+}
+.header {
+		width: 997px;
+	height: 175px;
+}
+.logo {
+	/*background-color: green;*/
+	width: 317px;
+	height: 170px;
+	float: left;
+}
+.travel {
+	width: 680px;
+	height: 170px;
+	float: right;
+}
+.kontact {
+	color: blue;
+	/*background-color: blue;*/
+	width: 200px;
+	height: 80px;
+	float: right;
+}
+.tel {
+	list-style: none;
+}
+.country {
+	/*background-color: red;*/
+	width: 450px;
+	height: 90px;
+	float: right;
+	clear: both;
+}
+.flag {
+	display: inline-block;
+
+	color: blue;
+	padding: 5px;
+}
+.baner {
+	width: 997px;
+	height: 234px;
+}
+.menu {
+	width: 997px;
+	height: 20px;
+	background-color: #000D13;
+}
+.linemenu {
+	list-style: none;
+}
+.bottum {
+	padding: 0 2px;
+	color: aliceblue;
+	width: 135px;
+	/*border: solid;*/
+	float: left;
+	height: 20px;
+	margin-right: 1px;
+	cursor: pointer;
+	position: relative;
+	z-index: 1;
+}
+.hiden {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 20px;
+	margin: 0;
+	width: 300px;
+	background: blue;
+	border: 1px solid red;
+}
+.level {
+	float: none;
+	display: block;
+	background: none;
+	border-bottom: 1px solid #CCC;
+
+}
+ul li:hover ul {
+	display: block;
+}
+
+
+.content{
+
+}
+.boxleft {
+	padding: 15px;
+	float: left;
+	background-color: whitesmoke;
+	width: 250px;
+}
+.boxcenter {
+	float: left;
+	/*width: 500px;*/
+}
+.boxright {
+	padding: 15px;
+	background-color: whitesmoke;
+	float: right;
+	width: 250px;
+}
+.footer {
+	margin: auto;
+	width: 1000px;
+	height: 50px;
+	background-color: #01293A;
+	clear: both;
+}
+.footext {
+	padding: 15px 450px;
+	margin: 0 auto;
+	color: white;
+}
